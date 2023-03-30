@@ -4,17 +4,17 @@ import PreLoader from "../src/layout/PreLoader";
 import "../styles/glitch.css";
 import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
-  const [load, setLoad] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoad(false);
-    }, 1000);
-  }, []);
+  // const [load, setLoad] = useState(true);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoad(false);
+  //   }, 1000);
+  // }, []);
 
   return (
     <Fragment>
       <Head>
-        <title>Sergio - Portfolio Template</title>
+        <title>Theodore Palmer Portfolio</title>
         {/* <!-- Favicon --> */}
 
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-      {load && <PreLoader />}
+      {/* {load && <PreLoader />} */}
       <Component {...pageProps} />
     </Fragment>
   );

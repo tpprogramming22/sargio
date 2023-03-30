@@ -22,9 +22,9 @@ const Index = () => {
               <div className="col-lg-6">
                 <div className="type-box">
                   <h6>Hello, I am</h6>
-                  <h1 className="font-alt">Sergio Gadot</h1>
+                  <h1 className="font-alt">Theodore Palmer</h1>
                   <p className="lead">
-                    I Am Passionate <TypingAnimation />
+                    I'm a Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
                     I design and develop services for customers of all sizes,
