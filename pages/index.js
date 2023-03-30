@@ -24,7 +24,7 @@ const Index = () => {
                   <h6>Hello, I am</h6>
                   <h1 className="font-alt">Theodore Palmer</h1>
                   <p className="lead">
-                    I'm a Passionate <TypingAnimation />
+                    I Am A Passionate <TypingAnimation />
                   </p>
                   <p className="desc">
                     I design and develop services for customers of all sizes,
