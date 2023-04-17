@@ -4,6 +4,7 @@ import BackBtn from "./BackBtn";
 import DayNightMood from "./DayNightMood";
 import Header from "./Header";
 const Layout = ({ children, blog }) => {
+  
   return (
     <Fragment>
       <ImageView />

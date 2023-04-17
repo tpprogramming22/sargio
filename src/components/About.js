@@ -34,22 +34,22 @@ const About = () => {
                 </p>
                 <div className="row">
                   <div className="col-auto">
-                    <div className="media align-items-center">
+                    {/* <div className="media align-items-center">
                       <span className="count">5k</span>
                       <div className="media-body">
                         Projects <br />
                         Completed.
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="col-auto">
-                    <div className="media align-items-center">
-                      <span className="count">3k</span>
+                    {/* <div className="media align-items-center">
+                      <span className="count">4k</span>
                       <div className="media-body">
                         Satisfied <br />
                         Clients.
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="btn-bar">
