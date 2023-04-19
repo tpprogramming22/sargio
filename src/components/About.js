@@ -23,14 +23,13 @@ const About = () => {
               </div>
               <div className="about-text">
                 <h3>
-                  {`I'm`} a Freelancer Front-end Developer with over 3 years of
+                  {`I'm`} a Freelance Front-end Developer with over 2 years of
                   experience.{" "}
                 </h3>
                 <p>
-                  {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                  experience. {`I'm`} from San Francisco. I code and create web
-                  elements for amazing people around the world. I like work with
-                  new people. New people new Experiences.
+                  {`I'm`} a Freelance Front-end Developer with over 2 years of
+                  experience. {`I'm`} from Leeds, UK. I code and create web
+                  pages for a range of clients around the world. I enjoy working with new people, broadening my horizons and learning new skills.
                 </p>
                 <div className="row">
                   <div className="col-auto">
@@ -53,11 +52,11 @@ const About = () => {
                   </div>
                 </div>
                 <div className="btn-bar">
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#contactus">
                     <span>Contact Me</span>
                   </a>
-                  <a className="px-btn px-btn-theme" href="#">
-                    <span>Portfolio</span>
+                  <a className="px-btn px-btn-theme" href="#work">
+                    <span>Working on...</span>
                   </a>
                 </div>
               </div>
@@ -72,19 +71,19 @@ const About = () => {
           <div className="col-lg-4 m-15px-tb">
             <ul className="aducation-box">
               <li>
-                <span>2010-2012</span>
-                <h6>Graphic Designer</h6>
-                <p>International Design Institute</p>
+                <span>2022-2023</span>
+                <h6>MSc Comp Sci TU Munich</h6>
+                <p>Artificial Intelligence, Machine Learning, Robotics, German</p>
               </li>
               <li>
-                <span>2010-2012</span>
-                <h6>Web Development</h6>
-                <p>International Design Institute</p>
+                <span>2020-2023</span>
+                <h6>Newcastle University</h6>
+                <p>BSc Computer Science</p>
               </li>
               <li>
-                <span>2010-2012</span>
-                <h6>Search Engine Optimization</h6>
-                <p>International Design Institute</p>
+                <span>2022-2022</span>
+                <h6>ZTM Academy</h6>
+                <p>Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)</p>
               </li>
             </ul>
           </div>
@@ -92,13 +91,10 @@ const About = () => {
             <div className="skills-box">
               <h3>My skills</h3>
               <p>
-                {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                experience. I code and create web elements for amazing people
-                around the world. I like work with new people. New people new
-                Experiences.
+                My current skills lie in front-end development and web design, however, I'm also gaining an increasing interest in backend development, specifically in AI and Machine Learning. I have a high level of profiency in ReactJS and Python, among other popular programming languages. I am constantly trying to challenge myself so I enjoy coding projects, solving problems and I am currently enrolled on a Cybathlon with my University.
               </p>
               <div className="skill-lt">
-                <h6>HTML5</h6>
+                <h6>ReactJS</h6>
                 <div className="skill-bar">
                   <div className="skill-bar-in" style={{ width: "92%" }}>
                     <span data-toggle="tooltip" title="92%" />
@@ -107,7 +103,7 @@ const About = () => {
               </div>
               {/* /skill */}
               <div className="skill-lt">
-                <h6>WordPress</h6>
+                <h6>Python</h6>
                 <div className="skill-bar">
                   <div className="skill-bar-in" style={{ width: "72%" }}>
                     <span data-toggle="tooltip" title="72%" />
@@ -116,7 +112,7 @@ const About = () => {
               </div>
               {/* /skill */}
               <div className="skill-lt">
-                <h6>Magento</h6>
+                <h6>C</h6>
                 <div className="skill-bar">
                   <div className="skill-bar-in" style={{ width: "86%" }}>
                     <span data-toggle="tooltip" title="86%" />
@@ -136,7 +132,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="separated" />
+        {/* <div className="separated" />
         <div className="title">
           <h3>Experience.</h3>
         </div>
@@ -210,7 +206,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

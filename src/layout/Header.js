@@ -46,21 +46,21 @@ const Header = ({ blog }) => {
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
         </div>
         <div className="nav justify-content-center social-icons">
-          <a href="#">
+          {/* <a href="#">
             <i className="fab fa-facebook-f" />
           </a>
           <a href="#">
             <i className="fab fa-twitter" />
-          </a>
-          <a href="#">
+          </a> */}
+          {/* <a href="#">
             <i className="fab fa-instagram" />
-          </a>
-          <a href="#">
+          </a> */}
+          <a href="https://www.linkedin.com/in/ted-palmer-2aa728228/">
             <i className="fab fa-linkedin-in" />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <i className="fab fa-pinterest" />
-          </a>
+          </a> */}
         </div>
       </header>
     </Fragment>
@@ -83,24 +83,24 @@ const MenuWithOutBlog = () => {
           <span>About Me</span>
         </a>
       </li>
-      <li data-menuanchor="services">
+      {/* <li data-menuanchor="services">
         <a className="nav-link" href="#services">
           <i className="ti-panel" />
           <span>Services</span>
         </a>
-      </li>
+      </li> */}
       <li data-menuanchor="work">
         <a className="nav-link" href="#work">
           <i className="ti-bookmark-alt" />
-          <span>Portfolio</span>
+          <span>Working on...</span>
         </a>
       </li>
-      <li data-menuanchor="blog" className="blog">
+      {/* <li data-menuanchor="blog" className="blog">
         <a className="nav-link" href="#blog">
           <i className="ti-layout-media-overlay-alt-2" />
           <span>Blogs</span>
         </a>
-      </li>
+      </li> */}
       <li data-menuanchor="contactus">
         <a className="nav-link" href="#contactus">
           <i className="ti-map-alt" />
@@ -137,30 +137,30 @@ const MenuWithBlog = () => {
             </a>
           </Link>
         </li>
-        <li data-menuanchor="services">
+        {/* <li data-menuanchor="services">
           <Link href="/#services">
             <a className="nav-link">
               <i className="ti-panel" />
               <span>Services</span>
             </a>
           </Link>
-        </li>
+        </li> */}
         <li data-menuanchor="work">
           <Link href="/#work">
             <a className="nav-link">
               <i className="ti-bookmark-alt" />
-              <span>Portfolio</span>
+              <span>Working on...</span>
             </a>
           </Link>
         </li>
-        <li data-menuanchor="blog" className="blog active">
+        {/* <li data-menuanchor="blog" className="blog active">
           <Link href="/#blog">
             <a className="nav-link">
               <i className="ti-layout-media-overlay-alt-2" />
               <span>Blogs</span>
             </a>
           </Link>
-        </li>
+        </li> */}
         <li data-menuanchor="contactus">
           <Link href="/#contactus">
             <a className="nav-link">

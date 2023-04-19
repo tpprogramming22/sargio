@@ -8,6 +8,22 @@ import Layout from "../src/layout/Layout";
 const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
   ssr: false,
 });
+
+const onButtonClick = () => {
+  // using Java Script method to get PDF file
+  fetch('static/CV.pdf').then(response => {
+      response.blob().then(blob => {
+          // Creating new object of PDF file
+          const fileURL = window.URL.createObjectURL(blob);
+          // Setting various property values
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = 'CV.pdf';
+          alink.click();
+      })
+  })
+}
+
 const Index = () => {
   return (
     <Layout>
@@ -31,9 +47,9 @@ const Index = () => {
                     specializing in creating stylish, modern websites, web
                     services and online stores.
                   </p>
-                  <div className="btn-bar">
+                  <div className="btn-bar" onClick={onButtonClick}>
                     <a className="px-btn px-btn-theme" href="#">
-                      Donwload CV
+                      Download CV
                     </a>
                   </div>
                 </div>
@@ -52,13 +68,13 @@ const Index = () => {
       <About />
       {/* End about us */}
       {/* Services */}
-      <Services />
+      {/* <Services /> */}
       {/* End Services */}
       {/* Portfolio */}
       <Portfolio />
       {/* End Portfolio */}
       {/* Blog */}
-      <Blog />
+      {/* <Blog /> */}
       {/* End Blog */}
       {/* Contact us */}
       <Contact />

@@ -39,7 +39,7 @@ const Portfolio = () => {
     >
       <div className="container">
         <div className="title">
-          <h3>My Portfolio.</h3>
+          <h3>Working on...</h3>
         </div>
         <div className="portfolio-filter-01">
           <ul className="filter nav">
@@ -48,41 +48,41 @@ const Portfolio = () => {
               onClick={handleFilterKeyChange("*")}
               data-filter="*"
             >
-              All
+              Ongoing
             </li>
-            <li
+            {/* <li
               className={`c-pointer ${activeBtn("branding")}`}
               onClick={handleFilterKeyChange("branding")}
               data-filter=".branding"
             >
               Branding
-            </li>
-            <li
+            </li> */}
+            {/* <li
               className={`c-pointer ${activeBtn("photoshop")}`}
               onClick={handleFilterKeyChange("photoshop")}
               data-filter=".photoshop"
             >
               Photoshop
-            </li>
-            <li
+            </li> */}
+            {/* <li
               className={`c-pointer ${activeBtn("fashion")}`}
               onClick={handleFilterKeyChange("fashion")}
               data-filter=".fashion"
             >
               Fashion
-            </li>
-            <li
+            </li> */}
+            {/* <li
               className={`c-pointer ${activeBtn("product")}`}
               onClick={handleFilterKeyChange("product")}
               data-filter=".product"
             >
               Product
-            </li>
+            </li> */}
           </ul>
         </div>{" "}
         {/* Portfolio Filter */}
         <div className="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
-          <div className="grid-item product branding fashion">
+          {/* <div className="grid-item product branding fashion">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -100,9 +100,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item photoshop">
+          {/* <div className="grid-item photoshop">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -120,9 +120,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item product branding">
+          {/* <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -140,9 +140,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item product photoshop">
+          {/* <div className="grid-item product photoshop">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -160,9 +160,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item branding">
+          {/* <div className="grid-item branding">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -180,9 +180,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item product photoshop">
+          {/* <div className="grid-item product photoshop">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -200,9 +200,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item fashion">
+          {/* <div className="grid-item fashion">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -220,9 +220,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item product branding">
+          {/* <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -240,13 +240,14 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
           <div className="grid-item fashion">
+            <a href="https://www.modernpages.co.uk">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Modern Pages</h5>
+                <span>My Web Development Service</span>
               </div>
               <div className="portfolio-img">
                 <img src="static/img/m-portfolio-9.jpg" title="" alt="" />
@@ -255,11 +256,14 @@ const Portfolio = () => {
                     href="static/img/m-portfolio-9.jpg"
                     className="gallery-link"
                   >
-                    <span className="ti-plus" />
+                    <span className="ti-plus" href="www.modernpages.co.uk"/>
                   </a>
+                  
+                  
                 </div>
               </div>
             </div>
+            </a>
           </div>{" "}
           {/* grid item */}
         </div>
