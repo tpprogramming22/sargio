@@ -91,7 +91,7 @@ const About = () => {
             <div className="skills-box">
               <h3>My skills</h3>
               <p>
-                My current skills lie in front-end development and web design, however, I'm also gaining an increasing interest in backend development, specifically in AI and Machine Learning. I have a high level of profiency in ReactJS and Python, among other popular programming languages. I am constantly trying to challenge myself so I enjoy coding projects, solving problems and I am currently enrolled on a Cybathlon with my University.
+                My current skills lie in front-end development and web design, however, I am also gaining an increasing interest in backend development, specifically in AI and Machine Learning. I have a high level of profiency in ReactJS and Python, among other popular programming languages. I am constantly trying to challenge myself so I enjoy coding projects, solving problems and I am currently enrolled on a Cybathlon with my University.
               </p>
               <div className="skill-lt">
                 <h6>ReactJS</h6>
