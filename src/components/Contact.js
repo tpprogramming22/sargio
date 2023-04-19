@@ -23,7 +23,7 @@ const Contact = () => {
             <div className="contact-info">
               <h4>Get in contact!</h4>
               <p>
-                Feel free to contact me here and I'll be sure to reply asap!
+                Feel free to contact me here and I will be sure to reply asap!
               </p>
               <ul>
                 <li className="media">
